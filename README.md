@@ -1,7 +1,7 @@
 
 # Interface Tracker Kernel Module
 
-This kernel module tracks network interfaces and logs their details to `/proc/interface_tracker`. This module is hardcoded to assign veth and tap interfaces as type virtual while assigning eth and ens interfaces as Physical. All other interfaces will me marked as Logical. It will also attempt to track MTU, VLAN assignment and if it is connected to an OVS Bridge. 
+This kernel module tracks network interfaces and logs their details to `/proc/interface_tracker`. This module is hardcoded to assign veth and tap interfaces as type virtual while assigning eth and ens interfaces as Physical. All other interfaces will me marked as Logical. It will also attempt to track Interface Index ID, MAC Address, MTU, VLAN assignment and if it is connected to an OVS Bridge. 
 
 This is updated in real time and can be leveraged for userland based utilities that need information about the types of interfaces being used, potentially for OVS flow rules, eBPF rules etc. 
 
