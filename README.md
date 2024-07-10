@@ -96,6 +96,11 @@ To view the tracked interfaces, read the `/proc/interface_tracker` file:
 
 ```bash
 cat /proc/interface_tracker
+
+6 lxcbr0 00:16:3e:00:00:00 Physical 0 1500 -1 UP None
+1 lo 00:00:00:00:00:00 Logical 0 65536 0 UP None
+2 ens18 bc:24:11:dd:11:ae Virtual 0 1500 -1 UP None
+
 ```
 
 This will display the details of all network interfaces being tracked by the module.
