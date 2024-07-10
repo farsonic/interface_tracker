@@ -97,9 +97,14 @@ To view the tracked interfaces, read the `/proc/interface_tracker` file:
 ```bash
 cat /proc/interface_tracker
 
+Interface Tracker:
+8 vethNizZgE fe:d2:a0:45:dc:85 Virtual 0 1500 10000 UP ovs-system
 6 lxcbr0 00:16:3e:00:00:00 Physical 0 1500 -1 UP None
 1 lo 00:00:00:00:00:00 Logical 0 65536 0 UP None
+9 veth3 fe:34:74:8e:1f:78 Virtual 0 1500 10000 UP ovs-system
+7 veth4YZnRG fe:d8:b5:11:c5:90 Virtual 0 1500 10000 UP ovs-system
 2 ens18 bc:24:11:dd:11:ae Virtual 0 1500 -1 UP None
+10 veth4 fe:6b:36:e6:e7:76 Virtual 0 1500 10000 UP ovs-system
 
 ```
 
